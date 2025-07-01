@@ -1,5 +1,5 @@
 
-import { Code, Database, Globe, Tool } from 'lucide-react';
+import { Code, Database, Globe, Settings } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
 
@@ -37,7 +37,7 @@ const SkillsSection = () => {
     },
     {
       title: "Tools & Others",
-      icon: Tool,
+      icon: Settings,
       skills: [
         { name: "Git/GitHub", level: 90 },
         { name: "Docker", level: 70 },
